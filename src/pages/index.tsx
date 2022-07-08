@@ -44,6 +44,7 @@ const IndexPage: NextPage<IndexPageProps> = ({ initialCatImageUrl }) => {
     const image = await fetchCatImage();
     setCatImageUrl(image.url);
   };
+  const noMeans=0;
 
   return (
     <div>
