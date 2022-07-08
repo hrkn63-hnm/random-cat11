@@ -49,7 +49,7 @@ const IndexPage: NextPage<IndexPageProps> = ({ initialCatImageUrl }) => {
     <div>
       <button onClick={handleClick}>今日のニャンコ</button>
       <div style={{ marginTop: 8 }}>
-        <img src={catImageUrl} width={500} height="auto" />
+       <img src={catImageUrl} width={500} height="auto" />
       </div>
     </div>
   );
